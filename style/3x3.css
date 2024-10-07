@@ -1,0 +1,29 @@
+.auto-move-container{
+	margin: 60px auto 0px auto;
+	width: 350px;
+	font-size: 20px;
+	color: #0099FF;
+}
+.container {
+  width: 500px;
+}
+.game-container {
+  width: 379px;
+  height: 379px;
+}
+@media screen and (max-width: 520px) {
+.auto-move-container{
+	margin: 60px auto 0px auto;
+	width: 300px;
+	font-size: 15px;
+	color: #0099FF;
+}
+.container {
+  width: 300px;
+}
+.game-container {
+  width: 280px;
+  height: 280px;
+  margin-left: 10px;
+}
+}
