@@ -71,34 +71,34 @@ HTMLActuator.prototype.addTile = function (tile) {
      value = Math.floor(value / Math.pow(10, 63)) + "V";
   }
   else if (value >= Math.pow(10, 60)) {
-     value = Math.floor(value / Math.pow(10, 60)) + "ND";
+     value = Math.floor(value / Math.pow(10, 60)) + "NDe";
   }
   else if (value >= Math.pow(10, 57)) {
-     value = Math.floor(value / Math.pow(10, 57)) + "OcD";
+     value = Math.floor(value / Math.pow(10, 57)) + "OcDe";
   }
   else if (value >= Math.pow(10, 54)) {
-     value = Math.floor(value / Math.pow(10, 54)) + "SpD";
+     value = Math.floor(value / Math.pow(10, 54)) + "SpDe";
   }
   else if (value >= Math.pow(10, 51)) {
-     value = Math.floor(value / Math.pow(10, 51)) + "SxD";
+     value = Math.floor(value / Math.pow(10, 51)) + "SxDe";
   }
   else if (value >= Math.pow(10, 48)) {
-     value = Math.floor(value / Math.pow(10, 48)) + "QiD";
+     value = Math.floor(value / Math.pow(10, 48)) + "QiDe";
   }
   else if (value >= Math.pow(10, 45)) {
-     value = Math.floor(value / Math.pow(10, 45)) + "QD";
+     value = Math.floor(value / Math.pow(10, 45)) + "QDe";
   }
   else if (value >= Math.pow(10, 42)) {
-     value = Math.floor(value / Math.pow(10, 42)) + "TD";
+     value = Math.floor(value / Math.pow(10, 42)) + "TDe";
   }
   else if (value >= Math.pow(10, 39)) {
-     value = Math.floor(value / Math.pow(10, 39)) + "DD";
+     value = Math.floor(value / Math.pow(10, 39)) + "DDe";
   }
   else if (value >= Math.pow(10, 36)) {
-     value = Math.floor(value / Math.pow(10, 36)) + "UD";
+     value = Math.floor(value / Math.pow(10, 36)) + "UDe";
   }
   else if (value >= Math.pow(10, 33)) {
-     value = Math.floor(value / Math.pow(10, 33)) + "D";
+     value = Math.floor(value / Math.pow(10, 33)) + "De";
   }
   else if (value >= Math.pow(10, 30)) {
      value = Math.floor(value / Math.pow(10, 30)) + "N";
