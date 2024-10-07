@@ -4679,20 +4679,21 @@ hr {
   display: inline-block;
   background: #8f7a66;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 0 10px;
   text-decoration: none;
   color: #f9f6f2;
-  height: 40px;
-  line-height: 42px;
+  height: 30px;
+  line-height: 32px;
   display: block;
   text-align: center;
+  font-size: 18px;
   float: right;
   margin-left: 5px; }
 .undo-button {
-  margin-top: 20px; }
+  margin-top: 5px; }
 
 .game-explanation {
-  margin-top: 70px; }
+  margin-top: 50px; }
 
 @media screen and (max-width: 520px) {
   html, body {
@@ -4730,6 +4731,23 @@ hr {
     display: block;
     box-sizing: border-box;
     margin-top: 2px; }
+
+.auto-move-button, .undo-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 30px;
+  line-height: 32px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  float: right;
+  margin-left: 5px; }
+.undo-button {
+  margin-top: 5px; }
 
   .game-container {
     margin-top: 17px;
