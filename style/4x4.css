@@ -4,6 +4,9 @@
 	font-size: 20px;
 	color: #0099FF;
 }
+.container {
+  width: 500px;
+}
 .game-container {
   width: 500px;
   height: 500px;
@@ -14,6 +17,9 @@
 	width: 300px;
 	font-size: 15px;
 	color: #0099FF;
+}
+.container {
+  width: 280px;
 }
 .game-container {
   width: 280px;
