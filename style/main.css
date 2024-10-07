@@ -4687,8 +4687,9 @@ hr {
   display: block;
   text-align: center;
   float: right;
-  margin-top: 20px;
   margin-left: 5px; }
+.undo-button {
+  margin-top: 20px; }
 
 .game-explanation {
   margin-top: 70px; }
